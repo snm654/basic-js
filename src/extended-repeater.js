@@ -30,11 +30,10 @@ function repeater(str, options) {
   str = `${str + combo + options.separator}`.repeat(options.repeatTimes)
   let slice = str.length - options.separator.length
   str = str.slice(0, slice)
-
   return str
 }
 
-// console.log(repeater('TESTstr', { separator: 'ds', addition: 'ADD!', additionSeparator: ')))000' })); //TESTstrADD!
+console.log(repeater('TESTstr', { separator: 'ds', addition: 'ADD!', additionSeparator: ')))000' })); //TESTstrADD!
 
 
 
